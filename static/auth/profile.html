@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Профиль</title>
+        <style type="text/css">
+            @import {{styles}};
+           </style>
+    </head>
+    <body>
+        <div class='topblock'>
+            <p class='texttop'>Профиль пользователя: {{name}}</p>
+            <a href='map'>Карта</a>
+            <a href="nearest_choice" style="position: absolute; top:17%; left:65%">учреждения</a>
+            <a href="make_path" style="position: absolute; top:17%; left: 54%">маршрут</a>
+        </div>
+        <div class="block1">
+            <p class='text1'>
+                Ваш статус: {{status}} <br>
+                Место 1: {{place1}} <br>
+                Место 2: {{place2}} <br>
+                Место 3: {{place3}}
+            </p>
+            <div class="redblock">
+            <a href="reduction">Изменить данные</a>
+            </div>
+        </div>
+    <div class="detblock">
+        <details style='position: absolute; top: 5%; left: 2%; width: 95%; z-index: 200;'>
+            <summary style="font-family: Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(46, 51, 51);">Симптомы заражения</summary>
+            <img src={{src}} height="250px" width="450px">
+        </details>
+        <details style='position: absolute; top: 15%; left: 2%; width: 95%; z-index: 150;'>
+            <summary style="font-family: Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(46, 51, 51);">Рекомендации по профилактике</summary>
+            <p class="text1">
+                1.Держитесь от людей на расстоянии как минимум 1 метр. <br>
+                2.Выработайте привычку носить маску в людных местах. <br>
+                3.Избегайте крытых помещений, в которых люди <br>    держатся кучно или контактируют. <br>
+                4.Проводите встречи на улице. <br>
+                5.Регулярно обрабатывайте руки спиртосодержащим<br> средством или мойте их с мылом. <br>
+            </p>
+        </details>
+        <a style = 'position: absolute; top:97%; left:14%; text-align: center;' href="tel:112">вызвать скорую помощь</a>
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Мониторинг</title>
+        <style type="text/css">
+            @import {{styles}};
+           </style>
+    </head>
+    <body>
+         <div class="topblock">
+            <p class="texttop">
+                Мониторинг заболеваемости по датам
+            </p>
+                <a href="profile">профиль</a>
+        </div>
+        <div class='mapblock'>
+            <div class='formblock1'>
+                <form action="" method="POST" novalidate>
+                    <label for = 'date'>Выберите дату:</label>
+                    <select name='date'>
+                        <option>19.12.2020</option>
+                        <option>18.12.2020</option>
+                        <option>17.12.2020</option>
+                    </select>
+                    <br><br>
+                    <label for = 'position'>Введите текущее местоположение:</label>
+                    <input name = 'position'>
+                    <input type="submit" value="Показать" style="margin-top: 10px; margin-left: 27%;">
+                </form>
+                </div>
+        </div>
+</html>

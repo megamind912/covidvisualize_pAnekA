@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Профиль</title>
+        <style type="text/css">
+            @import {{styles}};
+           </style>
+    </head>
+    <body>
+        <div class = 'topblock'>
+            <p class="texttop">Поиск безопасного маршрута</p>
+            <a href='profile'>профиль</a>
+        </div>
+        <div class="block1">
+            <div class="formblock">
+                <form action="" method="POST" novalidate>
+                    <div>
+                        <label for='origin'>Выберите точку отправления:</label>
+                        <input name="origin">
+                    </div>
+                    <div>
+                        <label for='destination'>Выберите точку прибытия:</label>
+                        <input name="destination">
+                    </div>
+                    <div>
+                        <label for='mode'>Выберите способ передвижения</label>
+                        <select name='mode'>
+                            <option>Автомобиль</option>
+                            <option>Велосипед</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Найти" style="margin-top: 0px;">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

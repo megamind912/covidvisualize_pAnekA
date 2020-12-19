@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Карта аптек и больниц</title>
+    <style type="text/css">
+        @import {{styles}};
+       </style>
+</head>
+<body>
+    <div class = 'topblock'>
+        <p class = 'texttop'>Карта ближайших больниц и аптек</p>
+        <a href="profile">профиль</a>
+    </div>
+    <div class="block1" style="width: 250px; height: 100px;">
+    <div class= 'formblock' style="width: 250px; height: 100px;">
+        <form method="POST" action="" novalidate>
+            <label for='kind'>Выберите место для поиска:</label>
+            <select name='kind'>
+                <option>больница</option>
+                <option>аптека</option>
+            </select>
+            <input type="submit" value="Найти" style="margin-top: 0px;">
+        </form>
+    </div>
+    </div>
+    <img style="position: absolute; float: left; left: 50%; top: 25%" src={{src}}/>
+</body>
+</html>

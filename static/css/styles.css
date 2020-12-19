@@ -1,0 +1,64 @@
+@charset "utf=8";
+.blockreg {
+    width: 400px;
+    height: 330px;
+    float: left;
+    position: absolute;
+    background: #00d7fd;
+    border: solid 2px white;
+    border-radius: 30px;
+    top:33%;
+    left: 35%;
+}
+.blocklogin {
+    width: 400px;
+    height: 250px;
+    float: left;
+    position: absolute;
+    background: #00d7fd;
+    border: solid 2px white;
+    border-radius: 30px;
+    top:33%;
+    left: 35%;
+}
+.blocklogin1 {
+    width:350px;
+    height: 250px;
+    position: absolute;
+    background: none;
+    top: 1%;
+    left: 8%;
+}
+.textstyle1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19pt;
+    position: relative;
+    left: 26%;
+    font-weight: 700;
+}
+body { /* Стиль для всего документа */
+    font-size: 10pt; /* Размер шрифта */
+    font-family: "Verdana", sans-serif; /* Название шрифта */
+    background-color: rgb(46, 51, 51);
+    }
+label { /* Стиль для всех элементов label */
+    display: inline-block; /* Тип блока */
+    width: 150px; /* Ширина */
+    vertical-align: top; /* Вертикальное выравнивание */
+    }
+select { /* Стиль для всех списков */
+    width: 250px; /* Ширина */
+    border: 1px solid black; /* Определение стиля для границы */
+}
+input.txt { /* Стиль для элемента input, имеющего класс txt */
+    width: 250px; /* Ширина */
+    border: 1px solid black; /* Определение стиля для границы */
+    }
+textarea { /* Стиль для многострочного текстового поля */
+    width: 250px; /* Ширина */
+    height: 100px; /* Высота */
+    border: 1px solid black; /* Определение стиля для границы */
+    }
+form div { /* Стиль для всех div, расположенных внутри form */
+    margin-bottom: 20px; /* Отступ блока снизу */
+    }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Изменение профиля</title>
+        <style type="text/css">
+            @import {{styles}};
+           </style>
+    </head>
+    <body>
+        <div class='topblock'>
+            <p class='texttop'>Профиль пользователя: {{login}}</p>
+            <a href='map'>Карта</a>
+        </div>
+        <div class="block1">
+            <div class = 'formblock'>
+                <form action="" method="POST" novalidate>
+                    <div><label for="status">Выберите ваш статус:</label>
+                   <select name = 'status'>
+                           <option>результат тестирования(+)</option>
+                           <option>результат тестирования(-)</option>
+                   </select>
+                    </div>
+                   <div><label for='place1'>Место 1:</label>
+                        <input name='place1'>
+                    </div>
+                    <div><label for='place2'>Место 2:</label>
+                        <input name='place2'>
+                    </div>
+                    <div><label for='place3'>Место 3:</label>
+                        <input name="place3">
+                    </div>
+                   <input type="submit" value="Изменить" style="margin-top: 0px;">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
